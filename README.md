@@ -10,6 +10,8 @@
 
 - If you pass a name to the `build` script, it will use it to create your binaries. Ex: If you run the script like this: `build.sh myapp` it will create: **myapp_windows_amd64.exe**, **myapp_windows_386.exe** and **myapp_darwin_amd64**, otherwise it will use **my-go-server** as the default name.
 
+- While the **HTTP Server** is running you can stop it with `Ctrl + C` in the terminal. It will shutdown the server gracefully.
+
 ## Commands available
 
 Below is a list of commands you can use. The examples will use the default app name: **my-go-server**, if you built it with a **custom name**, use it instead of the default to run the commands.
